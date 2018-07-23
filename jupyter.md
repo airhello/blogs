@@ -9,6 +9,8 @@ root@ubuntu:~# cat /usr/local/etc/jupyter/jupyter_notebook_config.py
 > c.NotebookApp.notebook_dir = '/home/wudan/jupyter-notebook'  
 > c.NotebookApp.ip = '*'  
 > c.NotebookApp.open_browser = False  
+> c.NotebookApp.token = 'wudan' # 用户名  
+> c.NotebookApp.password = 'neteye' # 密码
 
 ## 开机启动
 root@ubuntu:~# cat /usr/lib/systemd/system/jupyter.service 
